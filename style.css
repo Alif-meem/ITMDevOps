@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1-container{
+    background-image: url(section1_Image.jpg);
+    width: 100%;
+    height: 90vh;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    color: white;
+    /* opacity: 0.5; */
+    /* background-color: blue; */
+}
+.section11{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(75,0,130,0.7);
+    /* opacity: 0.5; */
+}
+.section11>span{
+    background-color: purple;
+    /* opacity: 0.5; */
+    width: 100%;
+    height: 100%;
+}
+.section11:not(:first-child){
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    /* background-color: purple; */
+    padding: 5px;
+    width: 100%;
+    /* height: 30px; */
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav .nav-items{
+    float: right;
+    padding: 5px;
+    opacity: 1;
+}
+.nav-items a{
+    margin-right: 10px;
+}
+nav > a{
+    font-size: larger;
+    font-weight:bolder;
+}
+.text-form{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4em;
+}
+.text-form h1{
+    font-size: 50px;
+}
+.text-form form{
+    /* background-color: azure; */
+    height: 50px;
+    width: 60%;
+    text-align: center;
+}
+.text-form .inputField{
+    height: 80%;
+    width: 25%;
+    border: none;
+    margin-left: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.text-form .btn{
+    background-color: rgb(250, 60, 69);
+    height: 80%;
+    width: 20%;
+    color: white;
+    margin-left: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.section2-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(247, 53, 63);
+    justify-content: space-evenly;
+}
+.section2-item{
+    padding: 20px;
+    text-align: center;
+    line-height: 2em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.section2-item i{
+    font-size: large;
+}
+
+.section3-container{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 2em;
+}
+.flex-item{
+    width: 30%;
+    height: 70%;
+    /* background-color: blueviolet; */
+    /* height: 50%; */
+}
+.section3-container .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.section3-container button{
+    width: 25%;
+    background-color: rgb(241, 44, 44);
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.ig{
+    background-image: url('');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.section4{
+    background-color: rgba(75,0,130);
+    /* display: flex; */
+    /* align-items: center; */
+    color: white;
+
+}
+.section4 h1{
+    text-align: center;
+    padding-top: 1em;
+    padding: 1em;
+}
+.section4-container{
+    display: flex;
+    max-width: 60%;
+    margin: auto;
+    height: 90vh;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.section4-item{
+    border: 1px solid aqua;
+    /* outline: 1px solid white; */
+    width: 43%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 3px;
+}
+
+.section4-container .heading3{
+    width: 100%;
+    height: 5%;
+    padding-left: 3em;
+    font-weight: 100;
+    /* border: 1px solid white; */
+}
+.section4-container img{
+    width: 30%;
+    height: 50%;
+}
+.section4-paragraph{
+    width: 67%;
+    /* padding-left: 10px; */
+    text-align: left;
+    height: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.section4-btn{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+}
+.section4-btn button{
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(0, 13, 128);
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0px;
+}
+.btnOutside {
+    text-align: center;
+}
+.btnOutside button{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    width: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.section5{
+    background-color: azure;
+    width: 100%;
+    height: 90vh;
+}
+.section5>h1,.section5>p{
+    text-align: center;
+    padding-top: 40px;
+}
+.section5-container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.section5-item {
+    width: 17%;
+    /* height: 90%; */
+    background-color: rgba(75,0,130);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.section5-item .section5-img{
+    width: 100%;
+    height: 40%;
+}
+.section5-item .section5-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+.section5-item span,.section5-item .section5-paragraph{
+    font-size: small;
+}
+.section5-item div:not(:first-child){
+    padding-left: 10px;
+    margin-top: 0.7em;
+}
+.section5-item .section5-right{
+    float: right;
+    padding-right: 10px;
+}
+.section5-btn button{
+    width: 15%;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(75,0,130);
+    color: white;
+}
+.footer-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 10px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.footer-item{
+    width: 20%;
+}
+.footer-item h3{
+    padding: 20px 0px;
+    font-size: large;
+}
+.footer-item li{
+    list-style-type: none;
+}
+.footer-item a{
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    /* width: 20%; */
+    /* background-color: aqua  ; */
+}
+.footer-container >p{
+    width: 100%;
+    text-align: center;
+}
+.footer-container hr{
+    width: 100%;
+    margin: 20px 0px;
+}
+.footer-item .footer-input-field{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.footer-item .footer-btn{
+    background-color: red;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 50%;
+}
+.footer-container{
+    font-size: small;
+}
