@@ -5,7 +5,7 @@ pipeline {
         stage('Clone GitHub Repository') {
             steps {
                 script {
-                    git branch: 'master',  url: "git@github.com:Alif-meem/ITMDevOps.git"
+                    git branch: 'master',  url: "https://github.com/Alif-meem/ITMDevOps"
                 }
             }
         }
